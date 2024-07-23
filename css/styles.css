@@ -62,7 +62,7 @@ body {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
@@ -76,6 +76,7 @@ body {
   letter-spacing: 0.04em;
   color: #fff;
   background: #4d5ae5;
+  font-family: 'Roboto', sans-serif;
 }
 
 .button-hero-section:hover {
@@ -89,10 +90,11 @@ body {
 .section-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .item-title {
@@ -112,6 +114,14 @@ body {
   color: #434455;
 }
 
+.our-teams-section {
+  background: #f4f4fd;
+}
+
+.employee-our-teams-section {
+  background: #fff;
+}
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
@@ -122,10 +132,11 @@ body {
 .footer-logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
 }
 
 .footer-logo-span {
